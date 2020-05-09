@@ -140,6 +140,8 @@ include device/qcom/sepolicy/sepolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
 BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
+PRODUCT_PUBLIC_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/product/public
+PRODUCT_PIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/product/private
 
 SELINUX_IGNORE_NEVERALLOWS := true
 
